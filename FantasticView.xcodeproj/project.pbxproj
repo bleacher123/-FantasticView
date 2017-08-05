@@ -12,6 +12,7 @@
 		540C06E91F3542F10043B53F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 540C06E71F3542F10043B53F /* Main.storyboard */; };
 		540C06EB1F3542F10043B53F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 540C06EA1F3542F10043B53F /* Assets.xcassets */; };
 		540C06EE1F3542F10043B53F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 540C06EC1F3542F10043B53F /* LaunchScreen.storyboard */; };
+		540C06F61F3549C40043B53F /* FantasticView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 540C06F51F3549C40043B53F /* FantasticView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		540C06EA1F3542F10043B53F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		540C06ED1F3542F10043B53F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		540C06EF1F3542F10043B53F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		540C06F51F3549C40043B53F /* FantasticView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FantasticView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,7 @@
 			children = (
 				540C06E31F3542F10043B53F /* AppDelegate.swift */,
 				540C06E51F3542F10043B53F /* ViewController.swift */,
+				540C06F51F3549C40043B53F /* FantasticView.swift */,
 				540C06E71F3542F10043B53F /* Main.storyboard */,
 				540C06EA1F3542F10043B53F /* Assets.xcassets */,
 				540C06EC1F3542F10043B53F /* LaunchScreen.storyboard */,
@@ -139,6 +142,7 @@
 			files = (
 				540C06E61F3542F10043B53F /* ViewController.swift in Sources */,
 				540C06E41F3542F10043B53F /* AppDelegate.swift in Sources */,
+				540C06F61F3549C40043B53F /* FantasticView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -265,6 +269,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = L26LFEQL7B;
 				INFOPLIST_FILE = FantasticView/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.hoodsound.FantasticView;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -278,6 +283,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = L26LFEQL7B;
 				INFOPLIST_FILE = FantasticView/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.hoodsound.FantasticView;
 				PRODUCT_NAME = "$(TARGET_NAME)";
